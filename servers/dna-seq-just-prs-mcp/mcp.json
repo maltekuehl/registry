@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "just-prs": {
+      "command": "uv",
+      "args": ["run", "just-prs-mcp", "stdio"],
+      "env": {
+        "PRS_MCP_MODE": "essentials"
+      }
+    }
+  }
+}
